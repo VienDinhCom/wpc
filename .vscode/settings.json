@@ -8,7 +8,5 @@
   "eslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
   "javascript.validate.enable": false,
-  "emmet.triggerExpansionOnTab": true,
-  "php-cs-fixer.onsave": true,
-  "php-cs-fixer.formatHtml": true
+  "emmet.triggerExpansionOnTab": true
 }
