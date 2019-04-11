@@ -1,0 +1,17 @@
+{
+  "extends": [ "airbnb-base", "prettier" ],
+  "plugins": [ "prettier" ],
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "globals": {
+    "$": true,
+    "jQuery": true
+  },
+  "rules": {
+    "func-names": "off",
+    "vars-on-top":"off",
+    "prettier/prettier": "error"
+  }
+}
