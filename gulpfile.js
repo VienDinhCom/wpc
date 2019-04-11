@@ -327,10 +327,13 @@ gulp.task('vendor-scripts', function() {
 gulp.task('vendor', gulp.parallel('vendor-scripts', 'vendor-styles'));
 
 gulp.task('clean', function() {
-  return del([getPaths().dist.base], { dot: true });
+  return del([getPaths().dist.app, getPaths().dist.vendor], { dot: true });
 });
 
-gulp.task('build', gulp.series(gulp.parallel('vendor', 'styles', 'scripts')));
+gulp.task(
+  'build',
+  gulp.series('clean', gulp.parallel('vendor', 'styles', 'scripts'))
+);
 
 gulp.task('serve', function() {
   browserSync({
