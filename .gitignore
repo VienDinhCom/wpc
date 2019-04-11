@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# production
+assets/app
+assets/vendor
+
 # misc
 .DS_Store
 .env.local
