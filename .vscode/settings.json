@@ -6,6 +6,9 @@
   "scss.validate": false,
   "eslint.enable": true,
   "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true,
   "javascript.validate.enable": false,
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.formatHtml": true
 }
