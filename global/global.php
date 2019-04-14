@@ -1,3 +1,5 @@
+<?php /* Template Name: Example Template 111 */ ?>
+<?php /* Template Name: Example Template 222 */ ?>
 <?php
 
 function wpc_component($name, $props = array()) {
