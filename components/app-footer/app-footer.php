@@ -1,4 +1,6 @@
 <footer class="app-footer">
-  Footer
+  <div class="container">
+    Footer
+  </div>
 </footer>
 <!-- /.app-footer -->

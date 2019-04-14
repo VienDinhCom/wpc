@@ -1,15 +1,21 @@
-<h1>Page Single</h1>
+<?php the_post(); ?>
 
-<?php
-if ( have_posts() ) {
-  while ( have_posts() ) {
+<?php wpc_component('app-header', ['title' => get_the_title()]); ?>
 
-      the_post(); ?>
+<article class="app-page-single">
+  <div class="container">
+    <div class="row">
+      <div class="col-8">
+        <div class="app-page-single__body">
+          <?php the_content(); ?>
+        </div>
+      </div>
+      <div class="col-4">
+        Sidebar
+      </div>
+    </div>
+  </div>
+</article>
+<!-- /.app-page-single -->
 
-      <h2><?php the_title(); ?></h2>
-
-      <?php the_content(); ?>
-
-  <?php }
-}
-?>
+<?php wpc_component('app-footer'); ?>
