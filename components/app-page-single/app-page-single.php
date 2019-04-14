@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="col-4">
-        Sidebar
+        <?php wpc_component('app-sidebar'); ?>
       </div>
     </div>
   </div>

@@ -1,0 +1,26 @@
+:host {
+
+  &__menu {
+    flex: 1;
+
+    .menu {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: flex-end;
+
+      .menu-item {
+        list-style: none;
+        margin-left: 15px;
+      }
+    }
+
+    .sub-menu {
+      display: none;
+
+      .menu-item {
+        //
+      }
+    }
+  }
+}
