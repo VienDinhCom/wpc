@@ -18,7 +18,7 @@
             <?php endwhile; ?>
             <?php the_posts_navigation(); ?>
           <?php else : ?>
-          <?php _e('It seems we can’t find what you’re looking for. Perhaps searching can help.', 'wpc'); ?>
+            <?php _e('It seems we can’t find what you’re looking for. Perhaps searching can help.', 'wpc'); ?>
           <?php endif; ?>
         </div>
       </div>

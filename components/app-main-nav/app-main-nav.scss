@@ -3,24 +3,42 @@
   &__menu {
     flex: 1;
 
-    .menu {
-      padding: 0;
-      margin: 0;
-      display: flex;
-      justify-content: flex-end;
+    // .sub-menu {
+    //   // display: none;
+    //   position: absolute;
+    //   right: 0;
+    //   top: 100%;
+    //   padding: 0;
 
-      .menu-item {
-        list-style: none;
-        margin-left: 15px;
-      }
-    }
+    //   .menu-item {
+    //     margin: 0 !important;
+    //     min-width: 120px;
+    //   }
+    // }
 
-    .sub-menu {
-      display: none;
+    // .menu {
+    //   padding: 0;
+    //   margin: 0;
+    //   display: flex;
+    //   justify-content: flex-end;
 
-      .menu-item {
-        //
-      }
-    }
+    //   .menu-item {
+    //     list-style: none;
+    //     margin-left: 15px;
+    //     position: relative;
+    //     display: block;
+
+    //     &:hover {
+
+    //       .sub-menu {
+    //         display: block;
+    //       }
+    //     }
+
+    //     a {
+    //       display: block;
+    //     }
+    //   }
+    // }
   }
 }
